@@ -3,10 +3,10 @@ import AboutUsImage from "../../public/assets/images/about.svg";
 
 export default function AboutUs() {
   return (
-    <section className="body-font text-gray-600">
+    <section className="body-font text-gray-600 my-10">
       <div>
         {" "}
-        <h2 className="lg:text-5xl text-4xl font-medium text-center text-white">
+        <h2 className="text-5xl font-bold text-center text-white">
           ABOUT US
         </h2>
       </div>
