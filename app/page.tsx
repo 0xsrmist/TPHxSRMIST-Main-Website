@@ -1,6 +1,6 @@
-import Domains from "../components/layouts/domains";
+import Domains from "../components/Domain/domains";
 import Footer from "@/components/layouts/Footer";
-import Sponsor from "../components/layouts/Sponsor";
+import Sponsor from "../components/Sponsor/Sponsor";
 
 export default function Home() {
   return (
