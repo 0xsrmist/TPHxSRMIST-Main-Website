@@ -76,28 +76,28 @@ export default function Footer() {
             <div className='flex ml-2 md:ml-0'>
                 
                 <ul className='mr-8'>
-                    <h3 className='text-2xl lg:text-3xl xl:text-4xl mb-1.5'>
+                    <h3 className='text-2xl lg:text-3xl mb-1.5'>
                         Explore
                     </h3>
                     {
                         links.map((link, index) => (
-                            <li key={index} className='py-2.5 text-md sm:text-lg lg:text-xl xl:text-2xl sm:w-max'>
+                            <li key={index} className='py-2.5 text-md sm:text-lg lg:text-xl sm:w-max'>
                                 <Link href={link.href}>{link.name}</Link>
                             </li>
                         ))
                     }
                 </ul>
                 <ul className='ml-8'>
-                    <h3 className='text-2xl lg:text-3xl xl:text-4xl mb-1.5'>
+                    <h3 className='text-2xl lg:text-3xl mb-1.5'>
                         Get in touch
                     </h3>
-                    <li className='flex py-2.5 text-md sm:text-lg lg:text-xl xl:text-2xl'>
+                    <li className='flex py-2.5 text-md sm:text-lg lg:text-xl'>
                         <Image src="/assets/icons/email.svg" alt="Email" className="w-4 h-4 md:w-6 md:h-6 xl:w-8 xl:h-8" width={30} height={30} />
                         <Link href={`mailto:${email[0].mailID}`} className='ml-3'>{email[0].label}</Link>
                     </li>
                     {
                         contacts.map((contact, index) => (
-                            <li key={index} className='flex py-2.5 text-md sm:text-lg lg:text-xl xl:text-2xl sm:w-max'>
+                            <li key={index} className='flex py-2.5 text-md sm:text-lg lg:text-xl sm:w-max'>
                                 <Image src={contact.imgURl} alt={contact.label} className="w-4 h-4 md:w-6 md:h-6 xl:w-8 xl:h-8" width={30} height={30} />
                                 <Link href={`tel:${contact.content}`} className='ml-3'>{contact.label}</Link>
                             </li>

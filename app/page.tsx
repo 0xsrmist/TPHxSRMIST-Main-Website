@@ -2,6 +2,7 @@ import Domains from "../components/Domain/domains";
 import Footer from "@/components/layouts/Footer";
 import Sponsor from "../components/Sponsor/Sponsor";
 import AboutUs from "@/components/aboutUs/aboutUs";
+import NewsLetter from "@/components/newsletter/NewsLetter";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <Sponsor />
       <AboutUs/>
       <Domains />
+      <NewsLetter/>
       <Footer />
     </main>
   );
