@@ -2,7 +2,7 @@ import Domain_card from './domain_card'
 
 const Domains = () => {
     return (
-        <div className="flex flex-col gap-8 px-16 py-6">
+        <div className="flex flex-col gap-8 px-16 pb-8">
             <h2 className="flex justify-center text-white text-5xl font-medium">DOMAINS</h2>
             <div className="flex flex-col md:flex-row gap-6 px-20 gap-y-20 justify-between items-center">
                 <Domain_card image="./assets/images//technical.svg" Title="TECHNICAL" Desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam voluptate omnis assumenda"/>
