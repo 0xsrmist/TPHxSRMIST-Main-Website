@@ -11,12 +11,16 @@ const NewsLetter = () => {
                     </div>
                     <div className="flex flex-col flex-grow gap-4 justify-center items-center text-white text-lg sm:text-2xl font-bold text-center">
                         <div>
-                            <p>Start building beautiful</p>
-                            <p>interactive graphics</p>
+                            <p>We are recruiting!</p>
+                            <p>Join us to be a part of TPHxSRMIST</p>
                         </div>
-                        <button className="rounded-full border-2 border-white py-2 px-3 bg-gradient-to-r from-[#16EE97] to-[#AA66FE] ">
-                            Get Started
-                        </button>
+
+                        
+                        <a href="https://lu.ma/gerc8cle" className="rounded-full border-2 border-white py-2 px-3 bg-gradient-to-r from-[#16EE97] to-[#AA66FE]">
+                                Apply Now
+                        </a>
+                       
+
                     </div>
                 </div>
             </div>
