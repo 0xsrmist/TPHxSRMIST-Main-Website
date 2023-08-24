@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const Hero = () => {
@@ -21,10 +22,13 @@ const Hero = () => {
 					</p>
 				</h1>
 				<button>
-				<a href="https://lu.ma/gerc8cle" className="whitespace-nowrap rounded-xl border-2 border-white py-5 px-8 bg-gradient-to-r from-[#16EE97] to-[#AA66FE] text-4xl font-bold">
-    					Sign Up
-					</a>
-
+					<Link
+						target='_blank'
+						href='https://lu.ma/gerc8cle'
+						className='whitespace-nowrap rounded-xl border-2 border-white py-5 px-8 bg-gradient-to-r from-[#16EE97] to-[#AA66FE] text-4xl font-bold'
+					>
+						Sign Up
+					</Link>
 				</button>
 			</div>
 		</section>
