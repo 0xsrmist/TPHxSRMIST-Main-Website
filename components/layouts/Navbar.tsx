@@ -21,7 +21,7 @@ const Navbar = () => {
                 <Image src={navbar_star} alt="star" width={20} height={20} />
               </div>
               <a
-                href="https://lu.ma/gerc8cle"
+                href="https://lu.ma/tphsrmistrecruitments"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[#0A050C] flex gap-2 text-base uppercase"
