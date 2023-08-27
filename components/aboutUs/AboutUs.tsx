@@ -3,14 +3,14 @@ import AboutUsImage from '/public/assets/images/about.svg';
 
 export default function AboutUs() {
 	return (
-		<section className='body-font text-gray-600'>
+		<section className='body-font text-gray-600 max-w-[1420px] mx-auto py-20'>
 			<div>
 				{' '}
 				<h2 className='text-5xl md:text-7xl font-medium text-center text-white'>
 					ABOUT US
 				</h2>
 			</div>
-			<div className='container mx-auto flex flex-col justify-center items-center px-2 py-24 md:flex-row'>
+			<div className='container mx-auto flex flex-col justify-center items-center px-2  md:flex-row'>
 				<div className='flex justify-center items-center relative'>
 					<Image
 						objectFit='cover'

@@ -30,7 +30,7 @@ const Navbar = () => {
 								height={20}
 							/>
 						</div>
-						<span className='text-[#0A050C] flex gap-2 text-base uppercase font-medium'>
+						<span className='text-[#0A050C] flex gap-2 text-base uppercase font-light'>
 							<span>
 								Recruitments are open - Click To Register Now
 							</span>

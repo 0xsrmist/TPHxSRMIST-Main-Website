@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const Hero = () => {
 	return (
-		<section className='w-full p-4 pt-12 flex items-center justify-center'>
+		<section className='w-full p-4 pt-16 pb-10 flex items-center justify-center'>
 			{/* <div className="bg-[url(/assets/images/hero.svg)] bg-no-repeat bg-contain bg-center w-full max-w-[110%] mt-7 md:w-[100vw] min-h-screen md:min-h-[90vh] flex flex-col justify-between font-bold text-center">
         <h1
           className="uppercase bg-inherit bg-clip-text text-white mt-10"
