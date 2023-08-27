@@ -87,7 +87,7 @@ export default function Footer() {
                 key={index}
                 className="py-2.5 text-md sm:text-lg lg:text-xl sm:w-max"
               >
-                <Link href={link.href}>{link.name}</Link>
+                <div>{link.name}</div>
               </li>
             ))}
           </ul>
