@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const Domain_card = ({ image,Title, Desc }) => {
+const DomainCard = ({ image,Title, Desc }) => {
     return (
         <div className="flex flex-col gap-6 w-72 text-white">
             <div className="p-3 rounded-lg bg-[#130F15]">
@@ -14,4 +14,4 @@ const Domain_card = ({ image,Title, Desc }) => {
     );
 }
 
-export default Domain_card;
+export default DomainCard;

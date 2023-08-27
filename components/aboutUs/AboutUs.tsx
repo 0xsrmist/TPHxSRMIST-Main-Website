@@ -1,5 +1,5 @@
 import Image from "next/image";
-import AboutUsImage from "../../public/assets/images/about.svg";
+import AboutUsImage from "/public/assets/images/about.svg";
 
 export default function AboutUs() {
   return (

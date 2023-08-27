@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import sponsorImg from "/public/assets/images/sponsor.png";
 import star from "/public/assets/icons/star.svg";
-import InfiniteLooper from "./infintelooper";
+import InfiniteLooper from "./InfinteLooper";
 
 export default function Sponsor() {
   const imageUrls: { [key: number]: string } = {
