@@ -31,13 +31,13 @@ export default function AboutUs() {
           </p>
           <p className="mb-8 text-white leading-relaxed text-justify text-xl ">
             <span>Our mission</span> is to provide a platform for curious minds and tech
-            enthusiasts to learn, collaborate, and create. Whether you're an
+            enthusiasts to learn, collaborate, and create. Whether you&apos;re an
             experienced developer or just starting your journey, TPHxSRM is the
             place where you can harness the <span>power of decentralized</span>applications
             and contribute to shaping the digital future.
           </p>
           <p className="mb-8 text-white leading-relaxed text-justify text-xl ">
-            As a member of our club, you'll have the opportunity to engage with
+            As a member of our club, you&apos;ll have the opportunity to engage with
             industry experts, work on <span>real-world projects</span>, and be part of a
             network that values innovation and growth. Join us on this exciting
             adventure as we pave the way for the next generation of
