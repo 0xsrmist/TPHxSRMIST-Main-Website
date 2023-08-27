@@ -30,8 +30,8 @@ const Hero = () => {
           </div>
         </h1>
       </div> */}
-
-			<div className='w-full mt-8 mx-auto md:max-w-4xl'>
+     
+			<div className='w-full mt-[150px]  mx-auto md:max-w-4xl'>
 				<Image
 					src='/assets/images/hero.svg'
 					width={100}

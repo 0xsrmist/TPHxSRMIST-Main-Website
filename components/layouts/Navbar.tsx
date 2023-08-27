@@ -7,6 +7,7 @@ import Link from 'next/link';
 
 const Navbar = () => {
 	return (
+		<>
 		<nav className='flex gap-8 text-white py-2 px-8 justify-around bg-linearback items-center fixed top-0 z-50 w-full'>
 			{/* <div className="flex gap-5 w-[100px]">
           <div>
@@ -39,6 +40,7 @@ const Navbar = () => {
 					</div>
 				</InfiniteLooper>
 			</Link>
+			
 			{/* <div className="flex justify-end">
           <button className="w-max flex align-middle justify-center justify-self-center align-self">
             <a
@@ -50,6 +52,14 @@ const Navbar = () => {
           </button>
         </div> */}
 		</nav>
+		<Image
+					src='/assets/images/logo.png'
+					width={100}
+					height={100}
+					className='object-contain  absolute left-0 top-[50px] p-6 w-[170px] h-auto'
+					alt='tphxsrm'
+				/>
+		</>
 	);
 };
 
