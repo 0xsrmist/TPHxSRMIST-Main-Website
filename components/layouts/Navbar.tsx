@@ -1,8 +1,8 @@
 // import Headroom from "react-headroom"
 import Image from 'next/image';
-import arrow from '../../public/assets/icons/arrow.svg';
-import navbar_star from '../../public/assets/icons/navbar_star.svg';
-import InfiniteLooper from '../Sponsor/infintelooper';
+import arrow from '@/public/assets/icons/arrow.svg';
+import navbar_star from '@/public/assets/icons/navbarStar.svg';
+import InfiniteLooper from '@/components/sponsors/InfinteLooper';
 import Link from 'next/link';
 
 const Navbar = () => {
