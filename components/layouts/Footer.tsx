@@ -73,7 +73,7 @@ export default function Footer() {
             <div className='flex md:justify-center items-center mr-10 mb-10 md:mb-0'>
              <Image src={Logo} alt="TPH x SRMIST Logo" className="min-w-[] w-[375px] h-[130px]" width={100} height={100} />
             </div>
-            <div className='flex ml-2 md:ml-0'>
+            <div className='flex ml-2 md:ml-0 justify-evenly'>
                 
                 <ul className='mr-8'>
                     <h3 className='text-2xl lg:text-3xl mb-1.5'>
