@@ -68,8 +68,8 @@ const socials = [
 
 export default function Footer() {
   return (
-    <footer className='w-full pb-8 sm:px-8'>
-        <div className='flex flex-col md:flex-row justify-between md:items-center border-t border-white pt-8 px-8 sm:px-0'>
+    <footer className='w-full border-t border-white pb-8'>
+        <div className='flex flex-col md:flex-row justify-between md:items-center pt-8 px-8 max-w-[1420px] mx-auto'>
             <div className='flex md:justify-center items-center mr-10 mb-10 md:mb-0'>
              <Image src={Logo} alt="TPH x SRMIST Logo" className="min-w-[] w-[375px] h-[130px]" width={100} height={100} />
             </div>

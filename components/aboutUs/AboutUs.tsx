@@ -3,7 +3,7 @@ import AboutUsImage from '/public/assets/images/about.svg';
 
 export default function AboutUs() {
 	return (
-		<section className='body-font text-gray-600'>
+		<section className='body-font text-gray-600 max-w-[1420px] mx-auto'>
 			<div>
 				{' '}
 				<h2 className='text-5xl md:text-7xl font-medium text-center text-white'>

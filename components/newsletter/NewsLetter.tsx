@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const NewsLetter = () => {
 	return (
-		<section className='flex flex-col gap-8 px-20'>
+		<section className='flex flex-col gap-8 px-20 max-w-[1420px] mx-auto'>
 			<div className='bg-gradient-to-r from-[#4098F8] to-[#E82BCD] p-1 rounded-2xl'>
 				<div className='flex flex-col sm:flex-row bg-[#010120] rounded-2xl p-2'>
 					<div className='sm:w-96 lg:w-[35vw]'>
