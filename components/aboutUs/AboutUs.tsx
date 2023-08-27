@@ -24,16 +24,16 @@ export default function AboutUs() {
         </div>
         <div className="z-20 flex flex-col items-center text-center md:w-1/2 md:items-start md:pl-16 md:text-left lg:flex-grow lg:pl-24 p-8">
           <p className="mb-8 text-white leading-relaxed text-justify text-xl ">
-            Welcome to <span className="">TPHxSRM</span>, the forefront of innovation and exploration in
-            the world of technology. We are the <span>Product House SRM Web3 Club</span>, a
+            Welcome to <span className="">TPHxSRMIST</span>, the forefront of innovation and exploration in
+            the world of technology. We are <span>The Product House </span>SRMIST Web3 Chapter, a
             vibrant community dedicated to delving into the realms of Web3
             technologies and blockchain innovations.
           </p>
           <p className="mb-8 text-white leading-relaxed text-justify text-xl ">
             <span>Our mission</span> is to provide a platform for curious minds and tech
             enthusiasts to learn, collaborate, and create. Whether you&apos;re an
-            experienced developer or just starting your journey, TPHxSRM is the
-            place where you can harness the <span>power of decentralized</span>applications
+            experienced developer or just starting your journey, TPHxSRMIST is the
+            place where you can harness the <span>power of decentralized </span>applications
             and contribute to shaping the digital future.
           </p>
           <p className="mb-8 text-white leading-relaxed text-justify text-xl ">
