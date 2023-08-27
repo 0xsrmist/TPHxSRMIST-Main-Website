@@ -11,6 +11,7 @@ module.exports = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'linearback': 'linear-gradient(90deg, #16EE97 0%, #AA66FE 100%)',
       },
       animation: {
         rotate: 'rotate 8s linear infinite',
