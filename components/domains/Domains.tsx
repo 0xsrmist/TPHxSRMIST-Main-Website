@@ -3,7 +3,7 @@ import DomainCard from './DomainCard';
 const Domains = () => {
 	return (
 		<div className='flex flex-col gap-8 px-16'>
-			<h2 className='flex justify-center text-white text-5xl font-medium'>
+			<h2 className='flex justify-center text-white text-5xl md:text-7xl font-medium'>
 				DOMAINS
 			</h2>
 			<div className='flex flex-col md:flex-row gap-6 py-24 px-20 gap-y-20 justify-between items-center'>

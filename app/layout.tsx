@@ -1,22 +1,38 @@
-import './globals.css'
-import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import './globals.css';
+import type { Metadata } from 'next';
+import localFont from 'next/font/local';
 
-const inter = Inter({ subsets: ['latin'] })
+const helvetica = localFont({
+	src: [
+		{
+			path: '../public/fonts/Helvetica/helvetica-compressed-5871d14b6903a.otf',
+			weight: '500',
+			style: 'medium',
+		},
+		{
+			path: '../public/fonts/Helvetica/Helvetica.ttf',
+			weight: '400',
+			style: 'normal',
+		},
+	],
+	variable: '--font-helvetica',
+});
 
 export const metadata: Metadata = {
-  title: 'TPH x SRMIST | Home',
-  description: 'Official Website of TPH x SRMIST.',
-}
+	title: 'TPH x SRMIST | Home',
+	description: 'Official Website of TPH x SRMIST.',
+};
 
 export default function RootLayout({
-  children,
+	children,
 }: {
-  children: React.ReactNode
+	children: React.ReactNode;
 }) {
-  return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
-    </html>
-  )
+	return (
+		<html lang='en'>
+			<body className={`${helvetica.variable} font-helvetica`}>
+				{children}
+			</body>
+		</html>
+	);
 }
