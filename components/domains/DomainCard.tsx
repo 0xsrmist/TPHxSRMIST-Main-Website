@@ -20,7 +20,7 @@ const DomainCard: React.FC<DomainCardProps> = ({ image, title, desc }) => {
 				/>
 			</div>
 			<div className='flex flex-col items-center text-center gap-2'>
-				<h2 className='flex text-2xl font-medium'>{title}</h2>
+				<h2 className='flex text-3xl font-medium'>{title}</h2>
 				<span>{desc}</span>
 			</div>
 		</div>

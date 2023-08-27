@@ -16,7 +16,7 @@ export default function Sponsor() {
   };
 
   return (
-    <div className="py-20">
+    <div className="pb-20">
       {/* <Image
         src={sponsorImg}
         alt="sponsors"

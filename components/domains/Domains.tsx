@@ -10,17 +10,17 @@ const Domains = () => {
 				<DomainCard
 					image='./assets/images//technical.svg'
 					title='TECHNICAL'
-					desc='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam voluptate omnis assumenda'
+					desc='In the technical realm, innovation is fueled by the mastery of intricacies.'
 				/>
 				<DomainCard
 					image='./assets/images/creative.svg'
-					title='CREATIVE'
-					desc='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam voluptate omnis assumenda'
+					title='CREATIVES'
+					desc='In the realm of creativity, imagination knows no bounds, giving life to innovation.'
 				/>
 				<DomainCard
 					image='./assets/images/corporate.svg'
 					title='CORPORATE'
-					desc='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam voluptate omnis assumenda'
+					desc='The corporate landscape is where strategy shapes success and collaboration breeds growth.'
 				/>
 			</div>
 		</div>
