@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @keyframes slideAnim {
 	from {
 		transform: translateX(0%);
@@ -13,7 +12,7 @@
 	}
 }
 
-.looper__innerList[data-animate="true"] .looper__listInstance {
+.looper__innerList[data-animate='true'] .looper__listInstance {
 	animation: slideAnim linear infinite;
 }
 
@@ -23,7 +22,7 @@
 	width: fit-content;
 }
 
-.looper__innerList[data-animate="true"] .looper__listInstance {
+.looper__innerList[data-animate='true'] .looper__listInstance {
 	animation: slideAnim linear infinite;
 }
 
