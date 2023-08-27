@@ -37,12 +37,12 @@ const email = [
 const contacts = [
     {
         imgURl: "/assets/icons/phone.svg",
-        label: "Md Zeeve Javed",
+        label: "6393221408",
         content: "",
     },
     {
         imgURl: "/assets/icons/phone.svg",
-        label: "Ankit Choudhary",
+        label: "9352917041",
         content: "",
     },
 ];

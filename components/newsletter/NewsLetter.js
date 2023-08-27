@@ -16,7 +16,7 @@ const NewsLetter = () => {
                         </div>
 
                         
-                        <a href="https://lu.ma/gerc8cle" className="rounded-full border-2 border-white py-2 px-3 bg-gradient-to-r from-[#16EE97] to-[#AA66FE]">
+                        <a href="https://lu.ma/tphsrmistrecruitments" className="rounded-full border-2 border-white py-2 px-3 bg-gradient-to-r from-[#16EE97] to-[#AA66FE]">
                                 Apply Now
                         </a>
                        
