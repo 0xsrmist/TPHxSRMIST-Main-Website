@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const NewsLetter = () => {
   return (
-    <section className="flex flex-col gap-8 px-20 max-w-[1420px] mx-auto pt-20">
+    <section className="flex flex-col gap-8 px-20 max-w-[1420px] mx-auto py-20">
       <div className="bg-gradient-to-r from-[#4098F8] to-[#E82BCD] p-1 rounded-2xl">
         <div className="flex flex-col sm:flex-row bg-[#010120] rounded-2xl p-2">
           <div className="sm:w-96 lg:w-[35vw]">
@@ -27,7 +27,7 @@ const NewsLetter = () => {
         </div>
       </div>
 
-      <div className="grid grid-rows-2 lg:grid-cols-2 items-center pt-4">
+      {/* <div className="grid grid-rows-2 lg:grid-cols-2 items-center pt-4">
         <div className="lg:w-96">
           <p className="text-xl">Join our newsletter</p>
           <p>Get all the latest TPHxSRMIST news delivered to your inbox</p>
@@ -41,7 +41,7 @@ const NewsLetter = () => {
             Sign Up
           </button>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };

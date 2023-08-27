@@ -9,20 +9,12 @@ const links = [
     href: "/",
   },
   {
-    name: "Project",
-    href: "/project",
-  },
-  {
     name: "About Us",
-    href: "/about",
+    href: "#aboutus",
   },
   {
-    name: "Our Services",
-    href: "/services",
-  },
-  {
-    name: "Team",
-    href: "/team",
+    name: "Domains",
+    href: "#domains",
   },
 ];
 
@@ -87,7 +79,7 @@ export default function Footer() {
                 key={index}
                 className="py-2.5 text-md sm:text-lg lg:text-xl sm:w-max"
               >
-                <div>{link.name}</div>
+                <Link href={link.href}>{link.name}</Link>
               </li>
             ))}
           </ul>

@@ -2,7 +2,7 @@ import DomainCard from './DomainCard';
 
 const Domains = () => {
 	return (
-		<div className='flex flex-col gap-8 px-16 max-w-[1420px] mx-auto py-20'>
+		<div id='domains' className='flex flex-col gap-8 px-16 max-w-[1420px] mx-auto py-20'>
 			<h2 className='flex justify-center text-white text-5xl md:text-7xl font-medium'>
 				DOMAINS
 			</h2>
