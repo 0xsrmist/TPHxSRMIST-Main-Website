@@ -7,7 +7,7 @@ import Link from 'next/link';
 
 const Navbar = () => {
 	return (
-		<nav className='flex gap-8 text-white py-2 px-8 justify-around bg-linearback items-center fixed top-0 z-50'>
+		<nav className='flex gap-8 text-white py-2 px-8 justify-around bg-linearback items-center fixed top-0 z-50 w-full'>
 			{/* <div className="flex gap-5 w-[100px]">
           <div>
             <Image src={hamburger} alt="hamburger" />
