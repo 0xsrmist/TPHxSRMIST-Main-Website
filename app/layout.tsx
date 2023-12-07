@@ -19,13 +19,14 @@ const helvetica = localFont({
 });
 
 export const metadata: Metadata = {
+	metadataBase: new URL('https://v1.0xsrmist.xyz'),
 	title: 'TPH x SRMIST | Home',
 	description: 'Official Website of TPH x SRMIST.',
 	openGraph: {
 		type: 'website',
 		title: 'TPH x SRMIST | Home',
 		description: 'Official Website of TPH x SRMIST.',
-		url: 'https://tph-srmist.vercel.app',
+		url: 'https://v1.0xsrmist.xyz',
 		images: ['/og-thumbnail.png'],
 	},
 	twitter: {
